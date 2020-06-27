@@ -3,7 +3,8 @@ Author - Vikas K Singh
 
 This has the basic REST operation using springboot framework and gradle as a build tool.
 
-[./gradlew bootrun]
+Git checkout and run the application
+**./gradlew bootrun**
 
 **URL** - http://localhost:8080/employees  
 **Request Method**  - GET  
@@ -66,7 +67,10 @@ Employee added :Employee{id=5, name='Tom', role='gardener'}Vikass-MacBook-Pro-2:
 **Request Method**  - DELETE  
 **Description**  - Delete employee. 
 
-[ $ ]
+[ $ curl -X DELETE localhost:8080/employees/5]
+``````
+Employee doesn't exists. Id : 5
+``````
 
 
 
