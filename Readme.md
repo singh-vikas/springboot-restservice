@@ -60,6 +60,7 @@ Employee exists :Employee{id=4, name='Dom', role='gardener'}* Closing connection
 
 [$ curl -X POST localhost:8080/employees -H 'Content-type:application/json' -d '{"name": "Tom", "role": "gardener", "salary":"$2500"}']
 ``````
+curl -X POST localhost:8080/employees -H 'Content-type:application/json' -d '{"name": "Tom", "role": "gardener", "salary":"$2500"}'
 Employee added :Employee{id=5, name='Tom', role='gardener'}Vikass-MacBook-Pro-2:.. vikas_singh$ 
 ``````
 
@@ -69,6 +70,7 @@ Employee added :Employee{id=5, name='Tom', role='gardener'}Vikass-MacBook-Pro-2:
 
 [ $ curl -X DELETE localhost:8080/employees/5]
 ``````
+curl -X DELETE localhost:8080/employees/5
 Employee doesn't exists. Id : 5
 ``````
 
