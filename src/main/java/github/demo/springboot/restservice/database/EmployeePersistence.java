@@ -9,7 +9,6 @@ import java.util.Iterator;
 
 /**
  * Singleton repository of employees.
- *
  */
 public class EmployeePersistence {
 
@@ -22,6 +21,11 @@ public class EmployeePersistence {
 
   private static EmployeePersistence persistence = null;
 
+  /**
+   * Only one instance of employee persistance.
+   *
+   * @return
+   */
   public static EmployeePersistence getEmployeePersistence() {
     if (persistence == null) {
       persistence = new EmployeePersistence();
@@ -66,7 +70,7 @@ public class EmployeePersistence {
 
   /**
    * Get all the employee.
-   *
+   * @param id
    * @return
    */
   public String getEmployee(int id) {
