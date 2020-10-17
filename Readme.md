@@ -1,7 +1,7 @@
 # Spring boot REST API
 Author - Vikas K Singh  
 
-This has the basic REST operation using springboot framework and gradle as a build tool.
+Basic REST operation using springboot framework and gradle as a build tool.
 
 Git checkout and run the application
 **./gradlew bootrun**
