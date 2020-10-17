@@ -1,4 +1,4 @@
-# Restfull web service using spring boot
+# Spring boot REST API
 Author - Vikas K Singh  
 
 This has the basic REST operation using springboot framework and gradle as a build tool.
